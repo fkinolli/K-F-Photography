@@ -1,9 +1,36 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
 
-body{
+/*background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);*/
+body {
   font-family: 'Open Sans', 'Montserrat', 'Arial';
+  margin: 0px;
+  padding: 0px;
 }
 
-.wrapper{
-  
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.5em;
+  grid-auto-rows: minmax(100px, auto);
+  text-align: center;
+}
+
+.navBar {
+  grid-column: 1;
+  grid-row: 1 / 4;
+  padding: 1em;
+  padding-left: 0px;
+}
+
+.navBar ul {
+  list-style-type: none;
+  padding: 1em;
+  padding-left: 0px;
+  background: grey;
+}
+
+.navBar li {
+  padding: 1em;
+  padding-left: 1em;
+  text-align: left;
 }
