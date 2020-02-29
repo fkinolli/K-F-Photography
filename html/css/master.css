@@ -26,11 +26,29 @@ body {
   list-style-type: none;
   padding: 1em;
   padding-left: 0px;
-  background: grey;
+  margin-left: .5em;
+  background: white;
+  border-left-style: solid;
+  border-left-color: black;
+  border-left-width: .04em;
 }
 
 .navBar li {
   padding: 1em;
   padding-left: 1em;
   text-align: left;
+}
+
+.navBar li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navBar li a:visited {
+  color: black;
+}
+
+
+.navBar li a:hover {
+  color: #ef4e7b;
 }
